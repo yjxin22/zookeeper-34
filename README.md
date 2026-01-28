@@ -1,2 +1,22 @@
 # zookeeper-34
-Bug 34 from zookeeper
+
+Bug reproduction for zookeeper issue #34
+
+## Structure
+```
+zookeeper-34/
+├── src/
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── example/
+│                   └── *.java
+├── bug.json
+├── pom.xml
+└── README.md
+```
+
+## Build
+```bash
+mvn clean compile
+```
